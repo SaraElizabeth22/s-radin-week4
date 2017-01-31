@@ -32,7 +32,7 @@ window.getDeck = function() {
 $(function() {
   $(".btn").on("click", function(event) {
     console.log(event);
-    var cardname1 ="2_of_hearts";
+    var cardname1 ="6_of_hearts";
     var card1 = "http://golearntocode.com/images/cards/" + cardname1 + ".png";
 $("#c1").attr("src",card1);
 
@@ -42,7 +42,7 @@ $("#c1").attr("src",card1);
 $(function() {
   $(".btn").on("click", function(event) {
     console.log(event);
-    var cardname2 ="2_of_hearts";
+    var cardname2 ="10_of_clubs";
     var card2 = "http://golearntocode.com/images/cards/" + cardname2 + ".png";
 $("#c2").attr("src",card2);
 
@@ -52,7 +52,7 @@ $("#c2").attr("src",card2);
 $(function() {
   $(".btn").on("click", function(event) {
     console.log(event);
-    var cardname3 ="2_of_hearts";
+    var cardname3 ="3_of_diamonds";
     var card3 = "http://golearntocode.com/images/cards/" + cardname3 + ".png";
 $("#c3").attr("src",card3);
 
@@ -62,7 +62,7 @@ $("#c3").attr("src",card3);
 $(function() {
   $(".btn").on("click", function(event) {
     console.log(event);
-    var cardname4 ="2_of_hearts";
+    var cardname4 ="queen_of_clubs";
     var card4 = "http://golearntocode.com/images/cards/" + cardname4 + ".png";
 $("#c4").attr("src",card4);
 
@@ -72,17 +72,12 @@ $("#c4").attr("src",card4);
 $(function() {
   $(".btn").on("click", function(event) {
     console.log(event);
-    var cardname5 ="2_of_hearts";
+    var cardname5 ="8_of_spades";
     var card5 = "http://golearntocode.com/images/cards/" + cardname5 + ".png";
 $("#c5").attr("src",card5);
 
   });
 });
-
-$(function() {
-  window.getDeck = function()
-  $(getDeck).on("click", function(event) {
-    console.log(event);
-var deck = getDeck()
-$("#deck").Math.round(Math.random * 51)
-};
+//Playing around with the below but could not get it to work..//
+//$(function() { $(getDeck).on("click", function(event) {    console.log(event);
+//var deck = getDeck() $("#deck").Math.round(Math.random * 51) }); //
