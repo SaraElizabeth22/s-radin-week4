@@ -1,8 +1,10 @@
 $(function() {
 
-  $(".list").on("click", function(event) {
-  var elementThatWasClicked = $(.checked)
-    console.log(elementThatWasClicked)
+  $(".item").on("click", function(event) {
+    console.log(event);
+  var elementThatWasClicked = $(".item");
+    console.log(elementThatWasClicked);
+    $(event.target).hide();
     // remove the element
 
 

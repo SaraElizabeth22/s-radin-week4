@@ -30,5 +30,51 @@ window.getDeck = function() {
 // END DO NOT CHANGE CODE
 
 $(function() {
-  // Your code goes here!
-})
+  $(".btn").on("click", function(event) {
+    console.log(event);
+    var cardname1 ="2_of_hearts";
+    var card1 = "http://golearntocode.com/images/cards/" + cardname1 + ".png";
+$("#c1").attr("src",card1);
+
+  });
+});
+
+$(function() {
+  $(".btn").on("click", function(event) {
+    console.log(event);
+    var cardname2 ="2_of_hearts";
+    var card2 = "http://golearntocode.com/images/cards/" + cardname2 + ".png";
+$("#c2").attr("src",card2);
+
+  });
+});
+
+$(function() {
+  $(".btn").on("click", function(event) {
+    console.log(event);
+    var cardname3 ="2_of_hearts";
+    var card3 = "http://golearntocode.com/images/cards/" + cardname3 + ".png";
+$("#c3").attr("src",card3);
+
+  });
+});
+
+$(function() {
+  $(".btn").on("click", function(event) {
+    console.log(event);
+    var cardname4 ="2_of_hearts";
+    var card4 = "http://golearntocode.com/images/cards/" + cardname4 + ".png";
+$("#c4").attr("src",card4);
+
+  });
+});
+
+$(function() {
+  $(".btn").on("click", function(event) {
+    console.log(event);
+    var cardname5 ="2_of_hearts";
+    var card5 = "http://golearntocode.com/images/cards/" + cardname5 + ".png";
+$("#c5").attr("src",card5);
+
+  });
+});
