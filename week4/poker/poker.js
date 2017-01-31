@@ -78,3 +78,11 @@ $("#c5").attr("src",card5);
 
   });
 });
+
+$(function() {
+  window.getDeck = function()
+  $(getDeck).on("click", function(event) {
+    console.log(event);
+var deck = getDeck()
+$("#deck").Math.round(Math.random * 51)
+};
